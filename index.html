@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lucknow Care | Healthcare • Ambulance • Doctors • Physiotherapy</title>
+<meta name="description" content="Lucknow Care - doctor appointment, ambulance assistance, physiotherapy, hospital services and Ayushman information.">
+<style>
+:root{--blue:#075985;--teal:#0f9f9a;--green:#16a36a;--dark:#082f49;--bg:#f5fafb;--card:#fff;--text:#17384a;--muted:#66808a;--line:#dcecef;--red:#e84b4b;--gold:#e5a72d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,"Noto Sans Devanagari",sans-serif}
+a{text-decoration:none;color:inherit}.top{background:var(--dark);color:#e5f8fa;font-size:13px}.topin,.wrap{max-width:1200px;margin:auto;padding-left:20px;padding-right:20px}.topin{padding-top:8px;padding-bottom:8px;display:flex;justify-content:space-between}
+.nav{position:sticky;top:0;z-index:50;background:#ffffffed;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.navin{max-width:1200px;margin:auto;padding:14px 20px;display:flex;align-items:center;gap:22px;justify-content:space-between}.brand{font-size:25px;font-weight:900;color:var(--dark);white-space:nowrap}.brand span{color:var(--teal)}.links{display:flex;gap:18px;align-items:center}.links a{font-size:14px;font-weight:800;color:#3c5964}.btn{border:0;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:13px 18px;border-radius:12px;background:var(--teal);color:#fff;font-weight:900}.btn.green{background:var(--green)}.btn.red{background:var(--red)}.btn.light{background:#e9f7f7;color:var(--teal)}
+.layout{max-width:1200px;margin:auto;display:grid;grid-template-columns:78px 1fr;gap:18px}.side{position:sticky;top:80px;height:max-content;padding-top:20px}.sidebox{background:#fff;border:1px solid var(--line);border-radius:18px;padding:8px;box-shadow:0 12px 30px #073b4c0d}.side a{width:60px;height:60px;margin:6px auto;display:flex;flex-direction:column;align-items:center;justify-content:center;border-radius:14px;font-size:22px}.side a span{font-size:9px;font-weight:800;margin-top:3px;color:#42616b}.side a:hover{background:#e9f8f7}
+.hero{margin:20px 0 0;border-radius:28px;padding:65px 45px;background:radial-gradient(circle at 85% 10%,#c9fff0 0,#dff8fa 34%,#f6fcfd 70%);overflow:hidden}.heroGrid{display:grid;grid-template-columns:1.15fr .85fr;gap:35px;align-items:center}.pill{display:inline-block;background:#d9f6f1;color:#087b78;padding:8px 13px;border-radius:30px;font-weight:900;font-size:12px}.hero h1{font-size:52px;line-height:1.06;color:var(--dark);margin:17px 0}.hero h1 span{color:var(--teal)}.hero p{font-size:18px;line-height:1.8;color:var(--muted);max-width:690px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}.heroCard{background:#fff;border:1px solid #e1edef;border-radius:23px;padding:24px;box-shadow:0 25px 60px #06465a18}.em{background:#fff3f2;border-left:5px solid var(--red);border-radius:15px;padding:18px}.em b{display:block;color:#b93636;font-size:28px;margin-top:5px}.quick{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}.quick a{padding:13px;border-radius:12px;background:#f0f8f9;text-align:center;font-weight:800;color:var(--dark)}
+section{padding:65px 0}.head{text-align:center;max-width:720px;margin:0 auto 35px}.head h2{font-size:34px;margin:0 0 10px;color:var(--dark)}.head p{color:var(--muted);line-height:1.7}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 12px 35px #073b4c0a}.icon{font-size:31px;width:58px;height:58px;border-radius:16px;background:#e9f8f7;display:flex;align-items:center;justify-content:center}.card h3{color:var(--dark);margin:14px 0 8px}.card p{color:var(--muted);line-height:1.7}.card .btn{margin-top:7px}
+.feature{background:var(--dark);color:#fff}.feature .head h2{color:#fff}.feature .head p{color:#c4dbe1}.featuregrid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.featurecard{background:#ffffff0e;border:1px solid #ffffff1e;border-radius:18px;padding:21px}.featurecard b{font-size:16px}.featurecard p{font-size:13px;color:#bdd5dc;line-height:1.6}
+.appbg{background:linear-gradient(135deg,#e9f9f8,#f1fff8)}.form{max-width:850px;margin:auto;background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:0 20px 55px #06384b14}.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}label{display:block;font-size:14px;font-weight:900;margin:12px 0 7px}input,select,textarea{width:100%;padding:14px;border:1px solid #cfE0e3;border-radius:11px;font-size:15px;background:#fcfefe}textarea{min-height:100px}.note{font-size:12px;color:#789098;line-height:1.6}
+.ayush{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:center}.aybox{background:#fff;border:1px solid var(--line);border-radius:23px;padding:28px}.tag{display:inline-block;padding:6px 9px;background:#fff3d7;color:#9a6900;border-radius:9px;font-size:12px;font-weight:900}
+.doctors{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.doctor{display:flex;gap:16px;align-items:center}.avatar{width:70px;height:70px;border-radius:18px;background:linear-gradient(135deg,#d8f5f2,#e5f0ff);display:flex;align-items:center;justify-content:center;font-size:30px}.doctor small{color:var(--muted)}.doctor .btn{padding:9px 12px;font-size:12px}
+.contactgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.contactbig{font-size:22px;font-weight:900;color:var(--teal)}.faq details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;margin:10px 0}.faq summary{font-weight:900;cursor:pointer;color:var(--dark)}
+footer{background:#062d3a;color:#d5e9ed;padding:45px 0}.foot{display:grid;grid-template-columns:2fr 1fr 1fr;gap:25px}.foot h3{color:#fff}.foot a{display:block;margin:9px 0}.copy{border-top:1px solid #ffffff22;margin-top:30px;padding-top:20px;text-align:center;font-size:12px}
+.float{position:fixed;right:17px;bottom:17px;z-index:60;display:flex;gap:9px}.float a{width:53px;height:53px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:23px;box-shadow:0 8px 24px #0004}.call{background:var(--teal)}.wa{background:#16a34a}
+@media(max-width:950px){.links{display:none}.layout{display:block}.side{display:none}.hero{border-radius:0;margin-top:0}.heroGrid,.ayush{grid-template-columns:1fr}.featuregrid{grid-template-columns:1fr 1fr}.grid,.doctors,.contactgrid{grid-template-columns:1fr 1fr}.hero h1{font-size:43px}}
+@media(max-width:600px){.topin{display:none}.hero{padding:45px 20px}.hero h1{font-size:37px}.grid,.doctors,.contactgrid,.featuregrid,.row{grid-template-columns:1fr}.navin{padding:12px 15px}.nav .btn{padding:10px 12px;font-size:12px}}
+</style>
+</head>
+<body>
+<div class="top"><div class="topin"><span>🏥 Lucknow Care • Healthcare Support</span><span>📧 arvindy4742@gmail.com</span></div></div>
+<header class="nav"><div class="navin"><div class="brand">Lucknow <span>Care</span></div><nav class="links"><a href="#services">सेवाएँ</a><a href="#doctors">Doctors</a><a href="#appointment">Appointment</a><a href="#physio">Physiotherapy</a><a href="#ayushman">Ayushman</a></nav><a class="btn" href="tel:8112702737">📞 Call Now</a></div></header>
+
+<div class="layout">
+<aside class="side"><div class="sidebox">
+<a href="#appointment">📅<span>Appointment</span></a>
+<a href="tel:8112702737">🚑<span>Ambulance</span></a>
+<a href="#doctors">👨‍⚕️<span>Doctors</span></a>
+<a href="#physio">💪<span>Physio</span></a>
+<a href="#ayushman">🪪<span>Ayushman</span></a>
+<a href="https://wa.me/918112702737" target="_blank">💬<span>WhatsApp</span></a>
+</div></aside>
+
+<main>
+<section class="hero"><div class="heroGrid">
+<div><span class="pill">LUCKNOW • DIGITAL HEALTHCARE</span><h1>स्वास्थ्य सेवा अब<br><span>और आसान।</span></h1>
+<p>डॉक्टर अपॉइंटमेंट, एम्बुलेंस सहायता, फिजियोथेरेपी, आयुष्मान जानकारी और अस्पताल से जुड़ी जरूरी सेवाएँ—एक ही जगह।</p>
+<div class="actions"><a class="btn" href="#appointment">📅 Doctor Appointment</a><a class="btn red" href="tel:8112702737">🚑 Ambulance</a><a class="btn green" href="#physio">💪 Live Physiotherapy</a></div></div>
+<div class="heroCard"><div class="em">🚨 Emergency / Ambulance<b>8112702737</b><a class="btn red" style="margin-top:10px" href="tel:8112702737">अभी कॉल करें</a></div>
+<h3>Quick Health Access</h3><div class="quick"><a href="#appointment">📅 Appointment</a><a href="#doctors">👨‍⚕️ Doctors</a><a href="#physio">💪 Physio</a><a href="#ayushman">🪪 Ayushman</a></div></div>
+</div></section>
+
+<section id="services"><div class="head"><h2>एक वेबसाइट में जरूरी हेल्थ सुविधाएँ</h2><p>साफ-सुथरा डिजाइन ताकि हर उम्र के व्यक्ति को जरूरी विकल्प तुरंत समझ आएँ।</p></div><div class="grid">
+<div class="card"><div class="icon">👨‍⚕️</div><h3>Doctor Appointment</h3><p>डॉक्टर/परामर्श के लिए तारीख और समय चुनकर request भेजें।</p><a class="btn" href="#appointment">अपॉइंटमेंट बुक करें</a></div>
+<div class="card"><div class="icon">🚑</div><h3>Ambulance Service</h3><p>आपातकालीन सहायता के लिए सीधे फोन करें।</p><a class="btn red" href="tel:8112702737">8112702737 कॉल करें</a></div>
+<div class="card" id="physio"><div class="icon">💪</div><h3>Live Physiotherapy</h3><p>ऑनलाइन/Live Physiotherapy session के लिए appointment request करें।</p><a class="btn green" href="https://wa.me/918112702737?text=Live%20Physiotherapy%20appointment%20chahiye" target="_blank">Live Session पूछें</a></div>
+<div class="card"><div class="icon">🏥</div><h3>Hospital Services</h3><p>OPD, consultation, admission और अन्य अस्पताल संबंधी जानकारी के लिए सहायता।</p><a class="btn light" href="#appointment">जानकारी लें</a></div>
+<div class="card"><div class="icon">🧪</div><h3>Diagnostics</h3><p>जांच/डायग्नोस्टिक सेवा के बारे में पूछताछ के लिए request भेजें।</p><a class="btn light" href="#appointment">पूछताछ करें</a></div>
+<div class="card"><div class="icon">💊</div><h3>Pharmacy / Medicine</h3><p>दवा या फार्मेसी संबंधी जानकारी के लिए संपर्क करें।</p><a class="btn light" href="tel:9721702737">संपर्क करें</a></div>
+</div></section>
+
+<section class="feature"><div class="head"><h2>एक नजर में सभी सुविधाएँ</h2><p>आप जिस सेवा की तलाश कर रहे हैं, उस पर सीधे जाएँ।</p></div><div class="featuregrid">
+<div class="featurecard"><b>📅 Online Booking</b><p>Appointment request सीधे ईमेल पर।</p></div>
+<div class="featurecard"><b>🚨 Emergency</b><p>Ambulance के लिए one-tap call।</p></div>
+<div class="featurecard"><b>💪 Live Physio</b><p>Live session के लिए WhatsApp request।</p></div>
+<div class="featurecard"><b>🪪 Ayushman</b><p>Official PM-JAY information link।</p></div>
+</div></section>
+
+<section id="doctors"><div class="head"><h2>Doctor Appointment</h2><p>यहाँ डॉक्टर/विशेषज्ञ के अनुसार appointment request की सुविधा रखी जा सकती है।</p></div><div class="doctors">
+<div class="card doctor"><div class="avatar">👨‍⚕️</div><div><h3>General Physician</h3><small>सामान्य परामर्श</small><br><a class="btn" href="#appointment">Book</a></div></div>
+<div class="card doctor"><div class="avatar">🦴</div><div><h3>Physiotherapy</h3><small>Rehab & Mobility</small><br><a class="btn green" href="#appointment">Book</a></div></div>
+<div class="card doctor"><div class="avatar">🩺</div><div><h3>Specialist</h3><small>उपलब्धता पूछें</small><br><a class="btn" href="#appointment">Book</a></div></div>
+</div></section>
+
+<section class="appbg" id="appointment"><div class="head"><h2>📅 Online Appointment</h2><p>फॉर्म भरें—request आपके Gmail पर भेजने के लिए तैयार है।</p></div>
+<form class="form" action="https://formsubmit.co/arvindy4742@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="New Appointment - Lucknow Care"><input type="hidden" name="_captcha" value="false"><input type="hidden" name="_template" value="table">
+<div class="row"><div><label>मरीज का नाम *</label><input name="Patient Name" required></div><div><label>मोबाइल नंबर *</label><input name="Mobile" type="tel" required></div></div>
+<div class="row"><div><label>Appointment Date *</label><input name="Appointment Date" type="date" required></div><div><label>Preferred Time *</label><input name="Preferred Time" type="time" required></div></div>
+<label>किस सेवा के लिए?</label><select name="Service" required><option value="">चुनें</option><option>Doctor Appointment</option><option>Physiotherapy</option><option>Live Physiotherapy</option><option>Hospital Information</option><option>Ambulance</option><option>Other</option></select>
+<label>Doctor / Department</label><input name="Doctor or Department" placeholder="जैसे General Physician">
+<label>समस्या / संदेश</label><textarea name="Message" placeholder="संक्षेप में अपनी समस्या लिखें"></textarea>
+<button class="btn" style="width:100%;margin-top:18px" type="submit">📩 Appointment Request भेजें</button>
+<p class="note">नोट: पहली बार FormSubmit activation/confirmation ईमेल आ सकता है। यह वेबसाइट किसी सरकारी अस्पताल की आधिकारिक वेबसाइट नहीं है। गंभीर आपात स्थिति में स्थानीय emergency services से भी संपर्क करें।</p>
+</form></section>
+
+<section id="ayushman"><div class="ayush"><div><span class="tag">OFFICIAL INFORMATION</span><h2 style="font-size:36px;color:var(--dark)">🪪 Ayushman Bharat</h2><p style="color:var(--muted);line-height:1.8">आयुष्मान भारत–PM-JAY की पात्रता, लाभार्थी और empanelled hospital संबंधी जानकारी के लिए आधिकारिक सरकारी पोर्टल देखें।</p><a class="btn green" href="https://pmjay.gov.in/" target="_blank" rel="noopener">PM-JAY Official Website ↗</a></div><div class="aybox"><h3>महत्वपूर्ण</h3><p>किसी अस्पताल की empanelment, cashless सुविधा या आपकी पात्रता की पुष्टि आधिकारिक स्रोत/संबंधित अस्पताल से करें।</p></div></div></section>
+
+<section class="faq"><div class="head"><h2>Frequently Asked Questions</h2></div><details><summary>Appointment की जानकारी कहाँ आएगी?</summary><p>फॉर्म की जानकारी आपके Gmail <b>arvindy4742@gmail.com</b> पर भेजने के लिए सेट है।</p></details><details><summary>Ambulance के लिए कौन सा नंबर है?</summary><p><a href="tel:8112702737">8112702737</a> पर कॉल करें। दूसरा संपर्क नंबर <a href="tel:9721702737">9721702737</a> है।</p></details><details><summary>Live Physiotherapy कैसे मिलेगी?</summary><p>Live Physiotherapy के लिए WhatsApp पर request भेजें; session की उपलब्धता और तरीका वहाँ confirm किया जा सकता है।</p></details><details><summary>Ayushman सुविधा क्या है?</summary><p>वेबसाइट पर official PM-JAY जानकारी का लिंक दिया गया है। पात्रता और empanelment की पुष्टि आधिकारिक स्रोत से करें।</p></details></section>
+
+<section><div class="head"><h2>📞 सीधे संपर्क करें</h2></div><div class="contactgrid"><div class="card"><h3>मुख्य हेल्पलाइन</h3><div class="contactbig">8112702737</div><a class="btn" href="tel:8112702737">कॉल करें</a></div><div class="card"><h3>दूसरा नंबर</h3><div class="contactbig">9721702737</div><a class="btn light" href="tel:9721702737">कॉल करें</a></div><div class="card"><h3>WhatsApp</h3><p>Appointment / Physio / सामान्य जानकारी</p><a class="btn green" href="https://wa.me/918112702737" target="_blank">WhatsApp खोलें</a></div></div></section>
+</main></div>
+
+<div class="float"><a class="wa" href="https://wa.me/918112702737" target="_blank">💬</a><a class="call" href="tel:8112702737">☎</a></div>
+<footer><div class="wrap foot"><div><div class="brand" style="color:#fff">Lucknow <span>Care</span></div><p>आपकी सेहत, हमारी प्राथमिकता।</p></div><div><h3>Quick Links</h3><a href="#appointment">Appointment</a><a href="#services">Services</a><a href="#ayushman">Ayushman</a></div><div><h3>Contact</h3><p>8112702737</p><p>9721702737</p><p>arvindy4742@gmail.com</p></div></div><div class="wrap copy">© 2026 Lucknow Care • Healthcare Support Platform</div></footer>
+</body></html>
